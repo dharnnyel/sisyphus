@@ -1,0 +1,39 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	color: white;
+}
+
+.header__logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.header__nav {
+	display: flex;
+	gap: 20px;
+}
+
+.header__nav-link {
+	color: white;
+	text-decoration: none;
+	font-size: 1rem;
+  cursor: pointer;
+}
+
+.header__nav-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.header__search-bar {
+	position: relative;
+}
+
+.header__search-input {
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: none;
+}
