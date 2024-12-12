@@ -1,9 +1,12 @@
 .header {
-	display: flex;
 	align-items: center;
+  grid-area: header;
 	justify-content: space-between;
-	padding: 10px 20px;
+	padding: 20px 20px;
+  border: 1px solid red;
+  display: flex;
 	color: white;
+  border-bottom: 1px solid #32383F;
 }
 
 .header__logo {
